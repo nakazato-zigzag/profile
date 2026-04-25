@@ -9,6 +9,7 @@
   --gray-bg:     #F6F6F6;
   --white:       #FFFFFF;
   --yellow:      #FFE033;
+  --yellow-text: #A07800;
   --yellow-pale: #FFFDE7;
 
   --font: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -77,6 +78,10 @@ img {
   color: var(--white);
 }
 
+.section-dark .section-title {
+  color: var(--yellow);
+}
+
 /* ================================================
    Shared typography
 ================================================ */
@@ -85,7 +90,7 @@ img {
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--yellow);
+  color: var(--yellow-text);
   margin-bottom: 40px;
 }
 
@@ -367,7 +372,7 @@ img {
   min-width: 40px;
   font-size: 12px;
   font-weight: 700;
-  color: var(--yellow);
+  color: var(--yellow-text);
   letter-spacing: 0.05em;
 }
 
@@ -391,7 +396,7 @@ img {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--yellow);
+  color: var(--yellow-text);
   margin-bottom: 10px;
 }
 
@@ -426,7 +431,7 @@ img {
   content: '—';
   position: absolute;
   left: 0;
-  color: var(--yellow);
+  color: var(--yellow-text);
 }
 
 /* ================================================
@@ -494,7 +499,7 @@ img {
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.1em;
-  color: var(--yellow);
+  color: var(--yellow-text);
   margin-bottom: 10px;
 }
 
@@ -592,7 +597,7 @@ img {
 
 .link-card:hover .link-arrow {
   transform: translateX(4px);
-  color: var(--yellow);
+  color: var(--yellow-text);
 }
 
 /* ================================================
