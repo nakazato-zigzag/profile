@@ -383,6 +383,53 @@ img {
 }
 
 /* ================================================
+   Globe section
+================================================ */
+.globe-section {
+  background: #070F1C;
+  padding-top: 72px;
+  overflow: hidden;
+}
+
+.globe-head {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.globe-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--yellow);
+  margin-bottom: 14px;
+}
+
+.globe-title {
+  font-size: clamp(26px, 4vw, 42px);
+  font-weight: 900;
+  color: var(--white);
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+}
+
+.globe-sub {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: 0.03em;
+}
+
+.globe-canvas-wrap {
+  width: 100%;
+  line-height: 0;
+}
+
+#globe-canvas {
+  display: block;
+  width: 100%;
+}
+
+/* ================================================
    About
 ================================================ */
 .about-grid {
